@@ -1,0 +1,20 @@
+2024-08-26 16:35:38.910 +0200 [debug] ([34mconfigs.js[0m) [31mloaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false}}"[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mconfigs.js[0m) [31mloaded global configs as "{"request":{"timeout":15000}}"[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mfile.js[0m) [31mError while requiring c:\Users\gabbe\.fdk\upsales-freshdesk-integration\.fdk\configs.json: Cannot find module 'c:\Users\gabbe\.fdk\upsales-freshdesk-integration\.fdk\configs.json'
+Require stack:
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mfile.js[0m) [31mError while requiring c:\Users\gabbe\.fdk\upsales-freshdesk-integration\.fdk\configs.json: Cannot find module 'c:\Users\gabbe\.fdk\upsales-freshdesk-integration\.fdk\configs.json'
+Require stack:
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\lib\utils\file.js
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\lib\configs.js
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\lib\logger.js
+- C:\Users\gabbe\AppData\Roaming\npm\node_modules\fdk\index.js[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mconfigs.js[0m) [31mloaded local configs as "{}"[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mconfigs.js[0m) [31mloaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000}}"[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mconfigs.js[0m) [31mloaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false}}"[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34mlogger.js[0m) [31mStarting FDK in node v20.17.0 on win32[0m
+2024-08-26 16:35:38.911 +0200 [debug] ([34msequelize.js[0m) [31msetting up sqilite at "c:\Users\gabbe\.fdk\upsales-freshdesk-integration/.fdk/store.sqlite"[0m
+2024-08-26 16:35:38.912 +0200 [error] [31m[ERROR][0m  Node.js version of 18.x.x is required to run this SDK. v20.17.0 found.
