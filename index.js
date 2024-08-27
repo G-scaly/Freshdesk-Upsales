@@ -1,8 +1,9 @@
+require('dotenv').config();
 const axios = require('axios');
 
 // Freshdesk Configuration
-const FRESHDESK_API_KEY = 'YCBU1bl6zDFaVTKA1Hc';  // Replace with your Freshdesk API key
-const FRESHDESK_DOMAIN = 'scalyab72849574309491831';    // Replace with your Freshdesk domain
+const FRESHDESK_API_KEY = process.env.FRESHDESK_API_KEY;
+const FRESHDESK_DOMAIN = process.env.FRESHDESK_DOMAIN;
 
 const freshdeskClient = axios.create({
   baseURL:  `https://${FRESHDESK_DOMAIN}.freshdesk.com/api/v2`,
@@ -16,7 +17,7 @@ const freshdeskClient = axios.create({
 });
 
 // Upsales Configuration
-const UPSALES_API_KEY = '1bacb6780c00b2185df569ad40783d5a73b1664c6ff1e338e9fa75093886aa29';  // Replace with your Upsales API key
+const UPSALES_API_KEY = process.env.UPSALES_API_KEY;  // Replace with your Upsales API key
 
 const upsalesClient = axios.create({
   baseURL: 'https://integration.upsales.com/api/v2',
